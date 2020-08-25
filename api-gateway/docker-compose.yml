@@ -28,6 +28,7 @@ services:
       - kong-net
     depends_on:
       - kong-database
+
   kong:
     image: kong
     container_name: kong
